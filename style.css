@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f8ff;
+    margin: 0;
+    color: #333;
+}
+header {
+    background: #00c3ff;
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1em;
+}
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+}
+.producto {
+    background: white;
+    border: 2px solid #00c3ff;
+    padding: 1em;
+    width: calc(33% - 2em);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.precio {
+    font-weight: bold;
+    color: #e91e63;
+}
+button {
+    background: #00c3ff;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #00c3ff;
+    color: white;
+}
+
+/* Estilos para el login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00c3ff, #e91e63);
+}
+.login-form {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: center;
+}
+.login-form h2 {
+    margin-bottom: 1em;
+    color: #00c3ff;
+}
+.login-form input {
+    width: 100%;
+    padding: 0.75em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+.login-form button {
+    width: 100%;
+    background: #00c3ff;
+    padding: 0.75em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.login-form .error {
+    color: red;
+    margin-top: 1em;
+}
